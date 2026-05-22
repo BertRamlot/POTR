@@ -170,6 +170,26 @@ By combining these two novel compression techniques, <span style="color: #cf0202
   </div>
 </section>
 
+<section class="section">
+  <div class="container ">
+    <div class=" has-text-centered">
+      <h2 class="title is-3">Method</h2>
+      <div class="columns is-centered">
+          <figure class="image">
+            <img src="./static/images/codec_overview.png">
+          </figure>
+      </div>
+      <div class="content has-text-justified">
+        <p>
+          (a) Splats are removed across multiple pruning iterations based on the change in the model's mean square error (MSE) upon their removal.
+      <br>(b) Spherical harmonic coefficients are energy compacted, yielding a new set of lighting coefficients with a lower entropy.
+      <br>(c) Splat geometry is quantized and serialized using an octree, then attributes are uniformly quantized and serialized using the spatial order implied by the depth-first traversal of the octree.
+      <br>(d) The serialized data is entropy compressed using zstd, resulting in the final compressed bitstream.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="section">
   <div class="container ">
