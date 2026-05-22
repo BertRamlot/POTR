@@ -1,0 +1,45 @@
+"ours_DSC8679.png" (D1F0KC) was made using q=0.1:
+{
+   "scene":"bicycle",
+   "ft_exec":"/home/bert/Projects/gaussian-splatting/train.py",
+   "comp_exec":"/home/bert/Projects/CGS/build/release/CGS",
+   "dataset":"/home/bert/datasets/360_v2/bicycle",
+   "results_raw":"/home/bert/Projects/CGS/results_raw/bicycle",
+   "model":"/home/bert/datasets/models/bicycle",
+   "start_iter":30000,
+   "downscale_factor":4,
+   "session_id":"5218",
+   "base_config":{
+      "early_culling_iterations":16,
+      "late_culling_iterations":8,
+      "culling_max_mse_cost":1e-09,
+      "max_neg_penalty_frac":0.02,
+      "no_sh_compaction":false,
+      "shs_lambda":0.7943282347242815,
+      "chrom_lambda_multiplier":3.0,
+      "shs_cosine_sim_parallel_treshold":0.574442516811659,
+      "min_pos_gamma":0.0006294627058970837,
+      "pos_sf":1.4e-05,
+      "dc_sh_sf":11,
+      "ac_sh_sf":11,
+      "opacity_sf":21,
+      "rot_sf":41,
+      "scale_sf":401,
+      "no_zstd":false,
+      "zstd_level":22,
+      "suggested_decoder_opacity_boost":0.33,
+      "ft_iters_before":500
+   },
+   "rounds":3,
+   "round_specific":{
+      "1":{
+         "early_culling_iterations":8,
+         "late_culling_iterations":8
+      },
+      "2":{
+         "early_culling_iterations":8,
+         "late_culling_iterations":8
+      }
+   },
+   "save_renders":true
+}

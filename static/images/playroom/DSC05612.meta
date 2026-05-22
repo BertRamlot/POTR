@@ -1,0 +1,22 @@
+"ours_DSC05612.png" (HKOQXO) was made using q=0.1:
+{
+    "ac_sh_sf": 11,
+    "chrom_lambda_multiplier": 3.0,
+    "culling_max_mse_cost": 1e-09,
+    "dc_sh_sf": 11,
+    "early_culling_iterations": 16,
+    "ft_iters_before": 500,
+    "late_culling_iterations": 8,
+    "max_neg_penalty_frac": 0.02,
+    "min_pos_gamma": 0.0006294627058970837,
+    "no_sh_compaction": false,
+    "no_zstd": false,
+    "opacity_sf": 21,
+    "pos_sf": 1.4e-05,
+    "rot_sf": 41,
+    "scale_sf": 401,
+    "shs_cosine_sim_parallel_treshold": 0.574442516811659,
+    "shs_lambda": 0.7943282347242815,
+    "suggested_decoder_opacity_boost": 0.33,
+    "zstd_level": 22
+}
