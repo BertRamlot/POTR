@@ -129,6 +129,29 @@ body {
   margin: 0;
 }
 
+#results-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+#results-carousel .item {
+  margin: 0;
+  flex: 0 1 auto;
+  min-width: 0;
+  line-height: 0;
+}
+
+#results-carousel .item video {
+  width: auto;
+  height: 380px;
+  max-width: 100%;
+  display: block;
+}
+
 
 .interpolation-panel {
   background: #f5f5f5;
